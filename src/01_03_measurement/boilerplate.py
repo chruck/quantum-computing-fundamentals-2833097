@@ -8,4 +8,4 @@ from qiskit import *
 from qiskit.tools.visualization import plot_histogram
 
 # I think this is only for Jupyter:
-%matplotlib inline
+#%matplotlib inline
