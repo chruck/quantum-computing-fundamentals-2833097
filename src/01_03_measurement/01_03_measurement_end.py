@@ -29,7 +29,8 @@ circuit.measure(qr, cr)
 import qiskit_aer
 
 #simulator = Aer.get_backend('qasm_simulator')
-simulator = qiskit_aer.AerSimulator()
+#simulator = qiskit_aer.AerSimulator()
+simulator = qiskit_aer.QasmSimulator()
 
 # execute() replaced with run()
 # default number of shots is 1024
