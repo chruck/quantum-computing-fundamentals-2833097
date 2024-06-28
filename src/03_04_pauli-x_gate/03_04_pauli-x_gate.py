@@ -8,8 +8,8 @@
 #     [ 1 0 ]
 # - therefore, eg, X|0> = |1>  and  X|1> = |0>  because
 #   [ 0 1 ][ 1 ] = [ 0 ]       and  [ 0 1 ][ 0 ] = [ 1 ]
-#   [ 1 0 ][ 0 ] = [ 1 ]            [ 1 0 ][ 1 ]   [ 0 ]
-#   ultimately,  X|phi> = [ 0 1 ][ alpha ] = [ beta  ]
+#   [ 1 0 ][ 0 ]   [ 1 ]            [ 1 0 ][ 1 ]   [ 0 ]
+#   ultimately,  X|psi> = [ 0 1 ][ alpha ] = [ beta  ]
 #                         [ 1 0 ][ beta  ]   [ alpha ]
 
 from qiskit import *
