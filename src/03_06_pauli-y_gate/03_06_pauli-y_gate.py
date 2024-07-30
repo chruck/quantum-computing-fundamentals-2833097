@@ -19,7 +19,7 @@
 # Y|psi> = i( alpha|1> - beta|0> )
 
 from qiskit import *
-from qiskit.tools.visualization import plot_bloch_multivector, array_to_latex
+from qiskit.visualization import plot_bloch_multivector, array_to_latex
 from math import pi
 %matplotlib inline
 
