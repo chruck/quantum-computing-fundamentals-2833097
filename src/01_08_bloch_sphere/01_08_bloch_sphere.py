@@ -27,3 +27,13 @@ statevector = result.get_statevector()
 qiskit.visualization.array_to_latex(statevector)
 
 qiskit.visualization.plot_bloch_multivector(statevector)
+
+# Notes:
+# Named vectors:
+# Z-axis:  |0> = [ 1 ]  and  |1> = [ 0 ]
+#                [ 0 ]             [ 1 ]
+# X-axis:  |+> = [ 1/sqrt(2) ]  and  |-> = [ 1/sqrt(2)  ]
+#                [ 1/sqrt(2) ]             [ -1/sqrt(2) ]
+# Y-axis:  |+i> = [ 1/sqrt(2) ]  and  |-i> = [ 1/sqrt(2)  ]
+#                 [ i/sqrt(2) ]              [ -i/sqrt(2) ]
+# (sometimes Qiskit represents 1/sqrt(2) as sqrt(2)/2)
