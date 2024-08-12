@@ -5,11 +5,11 @@ import qiskit_aer
 #%matplotlib inline
 
 circuit = QuantumCircuit(3)
-circuit.h([0, 1, 2])
-#circuit.s(1)
-circuit.t(1)
-#circuit.sdg(2)
-circuit.tdg(2)
+circuit.h([0, 1, 2, 3, 4])
+circuit.s(1)
+circuit.sdg(2)
+circuit.t(3)
+circuit.tdg(4)
 circuit.draw(output='mpl')
 
 #simulator = Aer.get_backend('statevector_simulator')
